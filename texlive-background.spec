@@ -1,3 +1,9 @@
+# revision 19538
+# category Package
+# catalog-ctan /macros/latex/contrib/background
+# catalog-date 2009-11-18 12:12:09 +0100
+# catalog-license lppl
+# catalog-version 1.0
 Name:		texlive-background
 Version:	1.0
 Release:	1
@@ -46,6 +52,7 @@ package, and uses pgf/tikz for attribute control.
 #- source
 %doc %{_texmfdistdir}/source/latex/background/background.dtx
 %doc %{_texmfdistdir}/source/latex/background/background.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -56,3 +63,5 @@ package, and uses pgf/tikz for attribute control.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
