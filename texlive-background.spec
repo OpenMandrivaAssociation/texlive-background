@@ -1,4 +1,4 @@
-# revision 25086
+# revision 25802
 # category Package
 # catalog-ctan /macros/latex/contrib/background
 # catalog-date 2009-11-18 12:12:09 +0100
@@ -6,7 +6,7 @@
 # catalog-version 1.0
 Name:		texlive-background
 Version:	1.0
-Release:	3
+Release:	4
 Summary:	Placement of background material on pages of a document
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/background
