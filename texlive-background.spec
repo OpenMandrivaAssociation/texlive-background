@@ -1,12 +1,12 @@
-# revision 27390
+# revision 25802
 # category Package
 # catalog-ctan /macros/latex/contrib/background
-# catalog-date 2012-07-18 17:38:10 +0200
+# catalog-date 2009-11-18 12:12:09 +0100
 # catalog-license lppl
 # catalog-version 1.0
 Name:		texlive-background
 Version:	1.0
-Release:	5
+Release:	4
 Summary:	Placement of background material on pages of a document
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/background
@@ -52,3 +52,26 @@ package, and uses pgf/tikz for attribute control.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Fri Apr 13 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.0-4
++ Revision: 790524
+- Update to latest release.
+
+* Thu Jan 19 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.0-3
++ Revision: 762531
+- Update to latest upstream package
+
+* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.0-2
++ Revision: 749445
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.0-1
++ Revision: 717879
+- texlive-background
+- texlive-background
+- texlive-background
+- texlive-background
+- texlive-background
+
