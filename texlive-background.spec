@@ -1,12 +1,12 @@
-# revision 27390
+# revision 33100
 # category Package
 # catalog-ctan /macros/latex/contrib/background
-# catalog-date 2012-07-18 17:38:10 +0200
+# catalog-date 2014-03-04 21:07:04 +0100
 # catalog-license lppl
-# catalog-version 1.0
+# catalog-version 2.1
 Name:		texlive-background
-Version:	1.0
-Release:	9
+Version:	2.1
+Release:	1
 Summary:	Placement of background material on pages of a document
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/background
@@ -23,8 +23,9 @@ Requires(post):	texlive-kpathsea
 The package offers the placement of background material on the
 pages of a document. The user can control many aspects
 (contents, position, color, opacity) of the background material
-that will be displayed. The package makes use of the everypage
-package, and uses pgf/tikz for attribute control.
+that will be displayed; all placement and attribute settings
+are controlled by setting key values. The package makes use of
+the everypage package, and uses pgf/tikz for attribute control.
 
 %post
     %{_sbindir}/texlive.post
