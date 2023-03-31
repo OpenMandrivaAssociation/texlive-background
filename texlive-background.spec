@@ -1,6 +1,6 @@
 Name:		texlive-background
 Version:	42428
-Release:	1
+Release:	2
 Summary:	Placement of background material on pages of a document
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/background
